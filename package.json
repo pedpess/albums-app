@@ -9,5 +9,8 @@
   "name": "albums",
   "version": "0.0.0",
   "description": "Hello Expo!",
-  "author": null
+  "author": null,
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
+  }
 }
