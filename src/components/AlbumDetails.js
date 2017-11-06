@@ -1,14 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-class AlbumDetails extends React.Component {
-  render() {
-    return (
+const AlbumDetails = props => {
+  return (
     <View>
-      <Text>AlbumDetails</Text>
+      <Text>{props.albumItem.title}</Text>
     </View>
-    );
-  }
-}
+  );
+};
 
 export default AlbumDetails;
